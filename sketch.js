@@ -30,7 +30,7 @@ function draw() {
   }
   pop();
   
-  for(var i=-250;i<251;i+=20){
+  for(var i=-250;i<251;i+=14){
          noStroke();
           fill(255);
           ellipse(sin(frameCount+i)*h,i,6);

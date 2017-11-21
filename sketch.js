@@ -39,4 +39,8 @@ function draw() {
           stroke(255);
           line(sin(frameCount+i)*h,i,cos(frameCount+i)*h,i);
      }
+  
+    textSize(18);
+    textAlign(CENTER);
+    text("YOUR  VOICE             /            YOUR  DNA", 0, 200);
 }
